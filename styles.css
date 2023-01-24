@@ -1,3 +1,28 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Layout*/
+
+.hero {
+    background-image: url(./images/bg-hero-mobile.svg);
+    padding: 4em 2em 2em;
+}
+
+header {
+    position: absolute;
+}
+
+.container {
+    max-width: 420px;
+    margin: 0 auto;
+}
