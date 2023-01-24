@@ -13,8 +13,13 @@ img {
 
 /* Layout*/
 
-.hero {
+.hero-wrapper {
     background-image: url(./images/bg-hero-mobile.svg);
+    background-color: hsl(193, 100%, 96%);
+}
+
+.hero {
+
     padding: 4em 2em 2em;
 }
 
