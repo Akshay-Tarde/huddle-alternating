@@ -17,7 +17,7 @@ The designs were created to the following widths:
 
 - Very Pale Cyan: hsl(193, 100%, 96%) // for the background-color of the hero section
 - Very Dark Cyan: hsl(192, 100%, 9%) // for the footer
-- Grayish Blue: hsl(208, 11%, 55%)
+- Grayish Blue: hsl(208, 11%, 55%) // For the card subtitle
 
 ## Typography
 
