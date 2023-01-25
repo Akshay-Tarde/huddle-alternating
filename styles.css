@@ -65,6 +65,29 @@ header {
     margin: 0 auto;
 }
 
+/* Buttons */
+
+.btn {
+    display: inline-block;
+    font-size: .9rem;
+    padding: .7em 4em;
+    background: hsl(322, 100%, 66%);
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn:focus,
+.btn:hover {
+    opacity: .7;
+    color: white;
+}
+
+.hero-btn {
+    margin: 1em 0 3em;
+}
+
+
 /* card section layout */
 .card-section {
     padding: 4em 1em;
@@ -122,6 +145,7 @@ header {
 .attribution {
     font-size: .8rem;
     margin-top: 1em;
+    text-align: center;
 }
 
 .attribution>p {
