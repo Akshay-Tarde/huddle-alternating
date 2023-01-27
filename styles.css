@@ -40,6 +40,21 @@ h2 {
     font-weight: 400;
 }
 
+/* Logo styling */
+.header-logo {
+    color: black;
+    transform: scale(.7);
+}
+
+.header-path-text {
+    fill: black;
+}
+
+.footer-path-text,
+.footer-path-object {
+    fill: white;
+}
+
 /* Layout*/
 
 .hero-wrapper {
@@ -54,16 +69,15 @@ h2 {
 header {
     position: absolute;
     top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 90%;
+    margin-top: 1.5em;
 }
 
-.header-logo {
-    color: black;
-    transform: scale(.5);
-}
 
 .container {
     max-width: 500px;
@@ -157,9 +171,9 @@ header {
     margin: 0;
 }
 
-/* .footer>div {
-    margin-bottom: 2em;
-} */
+.footer-content {
+    margin-top: 2em;
+}
 
 .footer-info {
     display: flex;
@@ -277,7 +291,7 @@ header {
     /* Footer */
     .footer-content {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: flex-start;
     }
 
