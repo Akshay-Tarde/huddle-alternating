@@ -143,8 +143,11 @@ header {
 }
 
 /* Footer layout*/
-.footer {
+.footer-container {
     background-color: hsl(192, 100%, 9%);
+}
+
+.footer {
     text-align: left;
     padding: 2em;
     padding-top: 8em;
@@ -270,4 +273,67 @@ header {
         padding-top: 2em;
         padding-bottom: 1em;
     }
+
+    /* Footer */
+    .footer-content {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .footer-info-div {
+        width: 40%;
+    }
+
+    /* Footer grid placement */
+    .footer-links {
+        width: 50%;
+        margin: 0;
+        display: grid;
+        grid-template-areas:
+            'about-us   career      icon-div'
+            'what-we-do blog        icon-div'
+            'faq        contact-us  icon-div';
+        grid-template-columns: repeat(3, 150px);
+    }
+
+    .about-us {
+        grid-area: about-us;
+    }
+
+    .career {
+        grid-area: career;
+    }
+
+    .icon-div {
+        grid-area: icon-div;
+    }
+
+    .what-we-do {
+        grid-area: what-we-do;
+    }
+
+    .faq {
+        grid-area: faq;
+    }
+
+    .blog {
+        grid-area: blog;
+    }
+
+    .contact-us {
+        grid-area: contact-us;
+    }
+
+    /* Icons links */
+    .icon-div {
+        align-self: start;
+        justify-self: start;
+        margin: 0;
+    }
+
+    .copyright {
+        text-align: right;
+    }
+
 }
