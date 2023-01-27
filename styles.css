@@ -63,7 +63,7 @@ h2 {
 }
 
 .hero {
-    padding: 4em 2em 2em;
+    padding: 8em 2em 2em;
 }
 
 header {
@@ -75,7 +75,7 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 90%;
-    margin-top: 1.5em;
+    margin: 1.5em auto;
 }
 
 
@@ -238,6 +238,11 @@ header {
 
     .container {
         max-width: 90%;
+    }
+
+    /* Hero button */
+    .header-btn {
+        padding: .6em 3em;
     }
 
     /* Hero section layout */
